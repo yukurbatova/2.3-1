@@ -13,7 +13,7 @@ class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -25,7 +25,7 @@ class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -37,7 +37,7 @@ class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -49,6 +49,6 @@ class BonusServiceTest {
 
         long actual = service.calculate(amount, registered);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
     }
 }
